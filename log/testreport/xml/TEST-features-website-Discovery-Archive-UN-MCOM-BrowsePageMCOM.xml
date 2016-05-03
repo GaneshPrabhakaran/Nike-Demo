@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Verify Browse Page features" skipped="1" tests="1" time="53.689070">
+<testcase classname="Verify Browse Page features" name="Verify Rebate Badge text appearing for products on browse and PDP pages on day between effective and expiration date" time="53.689070">
+  <skipped/>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

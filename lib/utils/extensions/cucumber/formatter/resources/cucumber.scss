@@ -1,0 +1,475 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400);
+/* Color scheme from http://paletton.com/#uid=4010X0kw0rdbhvYnBs+HemQSFhR */
+
+@mixin arrow($height) {
+  border: $height transparent dashed;
+  display: -moz-inline-box;
+  display: inline-block;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: middle;
+  width: 0;
+}
+
+$baseFont: "Open Sans", sans-serif;
+$monoFont: "Consolas", "Menlo", "Monaco", monospace;
+
+$sizeSmall: 11px;
+$sizeNormal: 12px;
+$sizeMedium: 14px;
+$sizeLarge: 32px;
+
+$stepPadding: 0.05rem 0.25rem 0.05rem 1rem;
+
+$black: #000;
+$white: #FFF;
+$grey1: #333;
+$grey2: #666;
+$grey3: #999;
+$grey35: #AAA;
+$grey4: #B4B4B4;
+$grey5: #CCC;
+$grey55: #DDD;
+$grey6: #EEE;
+
+$blueEdge: #000080;
+$blueBack: #103592;
+$blueWhite: #EEEEFF;
+
+$greenEdge: #007007;
+$greenBack: #00AB0B;
+$greenWhite: #EEFFEE;
+
+$yellowEdge: #8C8E00;
+$yellowBack: #FFFB53;
+$yellowWhite: #FFFFEE;
+
+$redEdge: #8E0400;
+$redBack: #D90600;
+$redWhite: #FFEEEE;
+
+$background: #FFF;
+$anchor: #BE5C00;
+
+$text: #000;
+
+%embedded {
+  margin: 0.5em 0;
+  max-width: 100%;
+  max-height: 60em;
+  overflow: auto;
+  border-width: 1px;
+}
+
+%rawEmbed {
+  max-height: 20em;
+  border: 1px solid $grey3;
+  background: $background;
+  color: $text;
+}
+
+%recordBorder {
+  border-width: 0 1px 1px 0.5rem;
+  border-style: solid;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  line-height: 1.4;
+  font: $sizeNormal $baseFont;
+  background: $background;
+  color: $text;
+}
+
+h1 { font-size: $sizeLarge; }
+
+h4 { margin-bottom: 0.2rem; }
+
+a, .a {
+  border: none;
+  background: none;
+  text-decoration: underline;
+  color: $anchor;
+
+  &:hover { text-decoration: underline; }
+  &:visited { font-weight: normal; }
+
+  & div.examples {
+	margin: 0.5rem 0 0.5rem 1.5rem;
+	color: black;
+  }
+}
+
+ul {
+  list-style: none;
+
+  li {
+    padding-right: 0.2em;
+
+    &.step { padding: $stepPadding; }
+  }
+}
+
+pre {
+  font: $sizeSmall $monoFont;
+
+  .error_message & {
+	font-size: $sizeNormal;
+	font-weight: bold;
+  }
+}
+
+.comment { padding: $stepPadding; }
+
+.background {
+  h3 {
+    font-size: $sizeMedium;
+    background: $grey3;
+    color: $white;
+    padding-left: 1.5rem;
+  }
+
+  .comment {
+    background-color: $grey6;
+    border-color: $grey3;
+    border-style: solid;
+    border-width: 0 1px 1px 0.5rem;
+  }
+}
+
+#cucumber-header {
+  overflow: auto;
+  padding: 0.25rem 1rem;
+  border-bottom-width: 0.25rem;
+  border-bottom-style: solid;
+
+  h1 { float: right; }
+
+  #summary {
+    float: left;
+    font-size: $sizeSmall;
+    background: $white;
+    border-width: 1px;
+    border-style: solid;
+    color: $black;
+
+    & > div { padding: 0 0.25rem; }
+  }
+}
+
+#sub-header {
+  font-weight: bold;
+  margin: 0.25rem 1rem 0.5rem;
+
+  #tag-container { float: right; }
+}
+
+#expander, #collapser, #failure-expander {
+  cursor: pointer;
+  text-decoration: underline;
+  margin-right: 0.5rem;
+}
+
+.feature {
+  margin: 0 1rem 0.5rem;
+  border: 1px solid $black;
+  padding: 0;
+
+  & > h2 {
+    background: $grey6;
+    color: $grey1;
+    padding-left: 1.5rem;
+  }
+
+  & > .tags-container {
+    float: right;
+    font-weight: bold;
+    margin: 0.35rem 0.35rem 0;
+  }
+
+  & > .comment,
+  & > .narrative {
+    padding-left: 1.5rem;
+
+    pre {
+      @extend %embedded;
+      @extend %rawEmbed;
+      padding: 0.5rem;
+      display: inline-block;
+      min-width: 50%;
+    }
+  }
+}
+
+.stats { margin: 2em; }
+
+.summary ul.features li { display: inline; }
+
+.step_name { float: left; }
+
+.step_file { text-align: right; }
+
+.scenario_file { float: right; }
+
+span.param {
+  font-weight: bold;
+}
+
+@each $color, $edge, $back, $blank, $text in
+                ("green",   $greenEdge,   $greenBack,   $greenWhite,  $white),
+                ("yellow",  $yellowEdge,  $yellowBack,  $yellowWhite, $black),
+                ("red",     $redEdge,     $redBack,     $redWhite,    $white) {
+  .#{$color} {
+    color: $text;
+    border-color: $edge;
+    background-color: $back;
+  }
+
+  .collapsed > .#{$color}.scenario-header::before { border-left-color: $text !important; }
+  .expanded > .#{$color}.scenario-header::before { border-top-color: $text !important; }
+
+
+  .#{$color} #summary {
+    border-color: $edge;
+    & > div { background: $blank; }
+  }
+
+  .#{$color} > span.category {
+    color: $edge;
+    border: 1px solid $edge;
+    background-color: $blank;
+  }
+}
+
+.tags-container:empty,
+.narrative pre:empty {
+  display: none !important;
+}
+
+.scenario {
+  .tags-container {
+    padding: $stepPadding;
+    font-weight: bold;
+  }
+
+  .example > .scenario-details { background-color: $white; }
+
+  .embed:not(.table), .comment, .tags-container { @extend %recordBorder; }
+
+  &:last-child .scenario-header {
+    border-bottom: 0 hidden;
+  }
+
+  &:last-child .embed-container li:last-child {
+    border-bottom-width: 0;
+  }
+}
+
+.scenario-header {
+  font-size: $sizeMedium;
+  padding: 0.05rem 0.25rem;
+  font-weight: bold;
+  border-width: 1px 0;
+  border-style: solid;
+  cursor: pointer;
+
+  .examples & { margin-right: 0; }
+}
+
+.expanded > .scenario-header {
+  border-bottom-width: 0;
+}
+
+@each $tag in (li, td) {
+  @each $class in (passed, message, skipped, undefined, pending, failed) {
+    #{$tag}.#{$class} {
+      @extend %recordBorder;
+    }
+  }
+}
+
+table.outline, li.step > table {
+  border-collapse: collapse;
+  border: 1px solid $black;
+  margin: 0.5rem 1rem;
+  background: $white;
+
+  th, td {
+    border: 1px solid $blueEdge;
+    padding: 0.25rem;
+  }
+
+  th { text-transform: capitalize; }
+}
+
+
+.example-container {
+  h4 { margin-left: 1rem; }
+
+  .examples {   overflow: auto; }
+}
+
+.embed-container li:last-child { border-bottom-width: 0.25rem; }
+
+.example:last-child .scenario-header { border-bottom: 0 hidden; }
+
+.passed {
+  border-color: $greenBack;
+  background-color: rgba($greenBack, 0.25);
+}
+
+.message, .skipped {
+  border-color: $blueBack;
+  background-color: rgba($blueBack, 0.25);
+}
+
+.embed, .embed a:visited, .embed a:link, .feature > .comment, .scenario-details > .comment, .feature > .narrative, table .category {
+  border-color: $grey3;
+  background-color: $grey6;
+}
+
+.undefined, .pending {
+  border-color: $yellowBack;
+  background-color: rgba($yellowBack, 0.25);
+}
+
+.failed {
+  border-color: $redBack;
+  background-color: rgba($redBack, 0.25);
+}
+
+.step.message.example-container { padding: 0.05rem 0 0 0; }
+
+.example-container h3 { margin-right: 1rem; }
+
+.embed-container {
+  list-style: none;
+  padding: 0;
+}
+
+.embed {
+  padding: .05rem .25rem .05rem 1rem;
+
+  a {
+    display: block;
+    text-decoration: underline;
+    color: $text;
+  }
+
+  div {
+    @extend %embedded;
+    display: none;
+  }
+
+  &.raw div { @extend %rawEmbed; }
+}
+
+.scenario-details { display: none; }
+
+.scenario .scenario-header::before,
+.code-toggle::before {
+  width: 1rem;
+  display: inline-block;
+  font-family: $monoFont;
+  margin-right: 0.25rem;
+  text-align: center;
+  height: 1.5rem;
+}
+
+span.category {
+  margin: 0 1rem;
+  line-height: 1rem;
+  font-size: 12px;
+  display: inline-block;
+  padding: 0.15rem 0.25rem 0.05rem;
+  text-align: center;
+}
+
+
+.scenario > .scenario-header::before,
+.example > .scenario-header::before,
+.code-toggle::before {
+  @include arrow(0.4em);
+  content: '';
+  left: 0.3rem;
+}
+
+.scenario.collapsed > .scenario-header::before,
+.example.collapsed > .scenario-header::before,
+.code-toggle.collapsed::before {
+  border-left: 0.75em solid $black;
+  vertical-align: baseline;
+}
+
+.scenario.expanded > .scenario-header::before,
+.example.expanded > .scenario-header::before,
+.code-toggle.expanded::before {
+  border-top: 0.75em solid $black;
+  margin-right: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.code-toggle {
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: $monoFont;
+  display: inline-block;
+  color: $grey2;
+}
+
+.code-container {
+  background: $redWhite;
+  border: 1px solid $redEdge;
+  padding: 0.5rem;
+  margin-bottom: 0.25rem;
+  display: none;
+}
+
+.pending > .code-container {
+  background: $yellowWhite;
+  border: 1px solid $yellowEdge;
+}
+
+.passed > .code-container {
+  background: $greenWhite;
+  border: 1px solid $greenEdge;
+}
+
+.backtrace {
+  overflow-x: auto;
+  color: $text;
+}
+
+.ruby {
+  overflow-x: auto;
+  border: 1px solid $grey3;
+  background: $background;
+  color: $text;
+
+  .ident, .punct, .escape, .interp, .expr { color: #191919; }
+  .attribute, .global, .symbol            { color: #660E7A; }
+  .module, .class                         { color: #000080; }
+  .string, .char                          { color: #008000; }
+  .keyword                                { color: #FF6600; }
+  .constant                               { color: #339999; }
+  .method                                 { color: #FFCC00; }
+  .number                                 { color: #0000FF; }
+  .comment                                { color: #808080; }
+  .regex                                  { color: #44B4CC; }
+
+  .linenum {
+    padding: 0 0.25em 0 1em;
+    color: $redEdge;
+    background: $grey6;
+    border-right: 1px dotted $grey3;
+    margin-right: 0.1em;
+    display: inline-block;
+  }
+  .offending { background: #FFC6C4; }
+}

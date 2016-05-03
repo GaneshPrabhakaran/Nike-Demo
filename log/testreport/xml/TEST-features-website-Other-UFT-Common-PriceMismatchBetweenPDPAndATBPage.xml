@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="MCOM and BCOM - Price mismatch between PDP and Bag" skipped="1" tests="1" time="14.080000">
+<testcase classname="MCOM and BCOM - Price mismatch between PDP and Bag" name="verify that price displayed in ATB layer is same as in PDP for domestic mode" time="14.080000">
+  <skipped/>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

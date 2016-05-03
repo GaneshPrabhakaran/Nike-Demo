@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Verify if a user is able to view the page contents properly" skipped="0" tests="3" time="163.649000">
+<testcase classname="Verify if a user is able to view the page contents properly" name="Verify the navigation of images on clicking arrow button in home page (outline example : | WOMEN | GEAR UP FOR WEATHER |)" time="72.091000">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Verify if a user is able to view the page contents properly" name="Verify the navigation of images on clicking arrow button in home page (outline example : | BOYS | NIKE TECH PACK PRESENTS |)" time="44.662000">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Verify if a user is able to view the page contents properly" name="Verify the navigation of images on clicking arrow button in home page (outline example : | GIRLS | NIKE TECH PACK PRESENTS |)" time="46.896000">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[:chrome
+:chrome
+:chrome
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

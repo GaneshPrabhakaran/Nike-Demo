@@ -1,0 +1,37 @@
+# This is the configuration used to check the rubocop source code.
+
+inherit_from: .rubocop_todo.yml
+
+#AllCops:
+#  Exclude:
+
+Style/Encoding:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 500
+
+Metrics/ClassLength:
+  Max: 609
+
+# This is disabled because we prefer tabs to space elements in page objects for readability.
+Style/ExtraSpacing:
+  Enabled: false
+
+# There is a rubocop bug that crashes when doing this check in auto-correct.  Temporarily disabling on version 0.36.0.
+Performance/Casecmp:
+  Enabled: false
+
+# There is a rubocop bug that creates errors in files with wrapping page object elements with parens on version 0.36.0.
+Style/RedundantParentheses:
+  Enabled: false
+
+Style/TrailingBlankLines:
+  Enabled: true
+
+Style/EmptyLinesAroundMethodBody:
+  Enabled: false
+
+# This is off so we don't generate warnings for every class declaration that are missing comments.
+Documentation:
+  Enabled: false

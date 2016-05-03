@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="As a MM, I want to have the ability to include the loyallist promotion text in the mobile sequencing list" skipped="0" tests="1" time="67.722000">
+<testcase classname="As a MM, I want to have the ability to include the loyallist promotion text in the mobile sequencing list" name="Verify for a signed In user, the loyalty offer Fixed, ending date and promotion ID displayed in sequence" time="67.722000">
+  <failure message="failed Verify for a signed In user, the loyalty offer Fixed, ending date and promotion ID displayed in sequence" type="failed">
+    <![CDATA[Scenario: Verify for a signed In user, the loyalty offer Fixed, ending date and promotion ID displayed in sequence
+
+Given I am on mobile web home page
+And I sign in as a new user
+And I search for an item
+Then I should see the bonus offer is displayed at top of the offer page
+
+Message:
+]]>
+    <![CDATA[Calling click failed: Element {:id=>"b-pdp-offers-label-top"} is not present. (Selenium::WebDriver::Error::NoSuchElementError)
+./lib/utils/extensions/page-object/platforms/selenium_webdriver/surrogate_selenium_element.rb:12:in `method_missing'
+./lib/utils/extensions/page-object/elements/element.rb:19:in `click'
+./lib/mobile_website/pages/PDP_page.rb:152:in `loyallist_offer_badge'
+./features/step_definitions/mobile_website/component_test/lbov/lbov.rb:78:in `block (2 levels) in <top (required)>'
+./features/step_definitions/mobile_website/component_test/lbov/lbov.rb:77:in `/^I should see the bonus offer is displayed at top of the offer page$/'
+features\website\MobileFoundation\MEW\component_test\lbov\lbov_loyallist_globaloffers_text_browse.feature:9:in `Then I should see the bonus offer is displayed at top of the offer page']]>
+  </failure>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[Cannot call click until element {:id=>"b-pdp-offers-label-top"} is present.
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

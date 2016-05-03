@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Verify if a user is able to view the page contents properly" skipped="1" tests="1" time="8.460812">
+<testcase classname="Verify if a user is able to view the page contents properly" name="Verify the functionality of Global Navigation menu" time="8.460812">
+  <skipped/>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="Navigating on the Global Navigation Button" skipped="0" tests="1" time="81.602000">
+<testcase classname="Navigating on the Global Navigation Button" name="Navigating on the Global Navigation Button on Home Page" time="81.602000">
+  <failure message="failed Navigating on the Global Navigation Button on Home Page" type="failed">
+    <![CDATA[Scenario: Navigating on the Global Navigation Button on Home Page
+
+Given I am on mobile integration web home page
+When I navigate on global navigation button
+Then I should see global navigation panel
+
+Message:
+]]>
+    <![CDATA[The nav toggle didn't complete successfully. (Selenium::WebDriver::Error::TimeOutError)
+./lib/mobile_website/panels/Header/main_left_nav_panel.rb:29:in `toggle_global_nav'
+./features/step_definitions/mobile_website/global_navigation/main_left_nav_panel_steps.rb:6:in `/^I (?:navigate|toggle) on global navigation button$/'
+features\website\MobileFoundation\MEW\component_test\global_navigation\Common\global_navigation.feature:6:in `When I navigate on global navigation button']]>
+  </failure>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

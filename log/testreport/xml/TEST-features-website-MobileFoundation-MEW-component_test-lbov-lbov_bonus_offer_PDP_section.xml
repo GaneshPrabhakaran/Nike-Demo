@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="As a MM, I want to verify the Loyalty Global Offer promotion facet should not display in the category page" skipped="0" tests="1" time="166.039000">
+<testcase classname="As a MM, I want to verify the Loyalty Global Offer promotion facet should not display in the category page" name="Verify the Offer details in PDP page for a guest user" time="166.039000">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

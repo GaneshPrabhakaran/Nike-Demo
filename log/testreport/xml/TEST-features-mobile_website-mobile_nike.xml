@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Verify if a user is able to view the page contents properly" skipped="0" tests="2" time="116.863000">
+<testcase classname="Verify if a user is able to view the page contents properly" name="Verify the functionality of Global Navigation menu" time="39.825000">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Verify if a user is able to view the page contents properly" name="As a guest user, I should be able to navigate to a PDP page by searching a product" time="77.038000">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

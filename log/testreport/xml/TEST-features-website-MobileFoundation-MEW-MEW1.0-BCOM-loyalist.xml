@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="Sign Up Enroll / Edit / Remove Loyalist" skipped="0" tests="1" time="142.857000">
+<testcase classname="Sign Up Enroll / Edit / Remove Loyalist" name="To verify user able to enroll and remove the loyalist account" time="142.857000">
+  <failure message="failed To verify user able to enroll and remove the loyalist account" type="failed">
+    <![CDATA[Scenario: To verify user able to enroll and remove the loyalist account
+
+Given I am on mobile web home page
+And I log in through the API and refresh the page
+When I enrolled as a loyalist account
+Then I should be on loyalist summary page
+When I remove loyalist from account
+Then I should see already on the list page
+
+Message:
+]]>
+    <![CDATA[Element {:id=>"processSignInEnrollment"} was not present in 20 seconds (Selenium::WebDriver::Error::TimeOutError)
+./lib/utils/extensions/page-object/platforms/selenium_webdriver/element.rb:11:in `when_present'
+./lib/utils/extensions/page-object/accessors.rb:39:in `block in expected_element'
+./lib/mobile_website/pages/MEW1.0/mew1_loyalist_enroll_page.rb:18:in `initialize_page'
+./lib/utils/extensions/page-object/page_object.rb:43:in `block in initialize'
+./lib/utils/extensions/page-object/page_object.rb:57:in `call'
+./lib/utils/extensions/page-object/page_object.rb:57:in `block in perform_benchmark'
+./lib/utils/extensions/page-object/page_object.rb:57:in `perform_benchmark'
+./lib/utils/extensions/page-object/page_object.rb:35:in `initialize'
+./features/step_definitions/mobile_website/MEW1.0/loyalist.rb:6:in `/^I enrolled as a loyalist account$/'
+features\website\MobileFoundation\MEW\MEW1.0\BCOM\loyalist.feature:9:in `When I enrolled as a loyalist account']]>
+  </failure>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

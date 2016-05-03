@@ -1,0 +1,20 @@
+default:  --profile pom
+pom: -r support/common -r support/website -r features/step_definitions/website features/website --profile common_formatters --format rerun --out log/rerun.txt
+iq:  -r support/common -r support/website -r features/step_definitions/website features/website --no-snippets --tags ~@wip
+common_formatters: >
+  --format Cucumber::Formatter::WDSAutomation --out log/cucumber.html --format Cucumber::Formatter::BetterHTML --out log/cucumber.2.html --format pretty --format junit --out log/testreport/xml --format json --out log/defaultJSON.json
+
+#### MOBILE WEB #######################
+
+#DEFAULT PROFILE
+mobile_website_default: >
+  --require support/common
+  --require support/mobile_website
+  --require features/step_definitions/mobile_website
+  --profile common_formatters
+  PROJECT=mobile_website
+  ENABLE_SCREENSHOTS=yes
+
+#This allows QE to have use cucumber.local.yml
+<% local_cuke = File.expand_path('config/cucumber.local.yml') %>
+<%=File.read(local_cuke) if File.exist?(local_cuke) %>

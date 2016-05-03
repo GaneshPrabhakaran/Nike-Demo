@@ -1,0 +1,95 @@
+# Logfile created on 2016-04-30 17:25:40 +0530 by logger.rb/41954
+D, [2016-04-30T17:25:40.416855 #8856] DEBUG -- : ID:        624b1ba0-f0f8-0133-8c7f-0bf7cfbd694f
+D, [2016-04-30T17:25:40.416855 #8856] DEBUG -- : Scenario:  | GIRLS | UNLEASH YOUR |
+D, [2016-04-30T17:25:40.416855 #8856] DEBUG -- : URL:       http://www.nike.com/us/en_us/
+D, [2016-04-30T17:25:40.417855 #8856] DEBUG -- : Test Host: windows 11.16.8.77
+D, [2016-04-30T17:25:40.417855 #8856] DEBUG -- : Grid Hub:  
+D, [2016-04-30T17:25:40.418855 #8856] DEBUG -- : Browser:   chrome  
+D, [2016-04-30T17:25:40.418855 #8856] DEBUG -- : 
+D, [2016-04-30T17:26:21.848855 #8856] DEBUG -- : User is navigated to home page
+D, [2016-04-30T17:26:21.859855 #8856] DEBUG -- : Step complete: I am on browser home page".
+	Ending URL: http://www.nike.com/us/en_us/
+	Location: features\website\desktop_nike.feature:11
+D, [2016-04-30T17:26:21.860855 #8856] DEBUG -- : 
+E, [2016-04-30T17:26:21.866855 #8856] ERROR -- : The following exception occurred when checking for errors on the page: uninitialized constant ErrorHandling
+D, [2016-04-30T17:26:22.064855 #8856] DEBUG -- : The header GIRLS is clicked!!
+D, [2016-04-30T17:26:22.075855 #8856] DEBUG -- : Step complete: I tap "<category>" in the header".
+	Ending URL: http://www.nike.com/us/en_us/
+	Location: features\website\desktop_nike.feature:12
+D, [2016-04-30T17:26:22.075855 #8856] DEBUG -- : 
+E, [2016-04-30T17:26:22.078855 #8856] ERROR -- : The following exception occurred when checking for errors on the page: uninitialized constant ErrorHandling
+D, [2016-04-30T17:26:40.495855 #8856] DEBUG -- : The URL and image GIRLS is displayed!!
+D, [2016-04-30T17:26:40.506855 #8856] DEBUG -- : Step complete: I should see the URL and header corresponding to "<category>"".
+	Ending URL: http://www.nike.com/us/en_us/c/girls
+	Location: features\website\desktop_nike.feature:13
+D, [2016-04-30T17:26:40.506855 #8856] DEBUG -- : 
+E, [2016-04-30T17:26:40.509855 #8856] ERROR -- : The following exception occurred when checking for errors on the page: uninitialized constant ErrorHandling
+D, [2016-04-30T17:26:42.838855 #8856] DEBUG -- : The text UNLEASH YOUR is displayed in the page!!
+D, [2016-04-30T17:26:42.849855 #8856] DEBUG -- : Step complete: I should see the <text> text of image in the page".
+	Ending URL: http://www.nike.com/us/en_us/c/girls
+	Location: features\website\desktop_nike.feature:14
+D, [2016-04-30T17:26:42.849855 #8856] DEBUG -- : 
+E, [2016-04-30T17:26:42.852855 #8856] ERROR -- : The following exception occurred when checking for errors on the page: uninitialized constant ErrorHandling
+E, [2016-04-30T17:26:42.871855 #8856] ERROR -- : The following exception occurred when checking for errors on the page: uninitialized constant ErrorHandling
+D, [2016-04-30T17:26:44.974855 #8856] DEBUG -- : 
+D, [2016-04-30T17:26:44.974855 #8856] DEBUG -- : Finished Scenario: | GIRLS | UNLEASH YOUR |
+D, [2016-04-30T17:26:44.974855 #8856] DEBUG -- : Status: passed
+D, [2016-04-30T17:26:44.974855 #8856] DEBUG -- : Quitting browser instance...
+D, [2016-04-30T17:26:50.187855 #8856] DEBUG -- : a var: ["ALLUSERSPROFILE", "C:\\ProgramData"]
+D, [2016-04-30T17:26:50.187855 #8856] DEBUG -- : a var: ["ANDROID_HOME", "D:\\AndroidSDK"]
+D, [2016-04-30T17:26:50.187855 #8856] DEBUG -- : a var: ["ANSICON", "80x300 (80x25)"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["ANSICON_DEF", "7"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["APPDATA", "C:\\Users\\ganesh.prabhakaran\\AppData\\Roaming"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["BUNDLE_BIN_PATH", "C:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.10.6/bin/bundle"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["BUNDLE_GEMFILE", "D:/repo_QAA/NikeQAA-demo/QAA/Gemfile"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["CommonProgramFiles", "C:\\Program Files\\Common Files"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["COMPUTERNAME", "ASPIRE1098"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["ComSpec", "C:\\Windows\\system32\\cmd.exe"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["DEFLOGDIR", "C:\\ProgramData\\McAfee\\DesktopProtection"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["DellClientSystemUpdatePath", "C:\\Program Files\\Dell\\ClientSystemUpdate\\"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["DEVICE", "Chrome"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["FP_NO_HOST_CHECK", "NO"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["GEM_HOME", "C:/Ruby200/lib/ruby/gems/2.0.0"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["GEM_PATH", "C:/Ruby200/lib/ruby/gems/2.0.0;C:/Users/ganesh.prabhakaran/.gem/ruby/2.0.0"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["HOME", "C:/Users/ganesh.prabhakaran"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["HOMEDRIVE", "C:"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["HOMEPATH", "\\Users\\ganesh.prabhakaran"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["IBM_DB_HOME", "C:\\Program Files\\jruby\\bin"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["JAVA_HOME", "C:\\Program Files\\Java\\jdk1.7.0_05"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["LOCALAPPDATA", "C:\\Users\\ganesh.prabhakaran\\AppData\\Local"]
+D, [2016-04-30T17:26:50.188855 #8856] DEBUG -- : a var: ["LOGONSERVER", "\\\\ASPBS-02"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["M2_HOME", "E:\\Ant\\apache-maven-3.0.3"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["MAGICK_CODER_MODULE_PATH", "C:/Ruby200/lib/ruby/gems/2.0.0/gems/win32screenshot-1.0.10/lib/win32/../../ext/modules/coders"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["NUMBER_OF_PROCESSORS", "4"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["OS", "Windows_NT"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["Path", "C:/Ruby200/lib/ruby/gems/2.0.0/gems/win32screenshot-1.0.10/lib/win32/../../ext;C:/Ruby200/lib/ruby/gems/2.0.0/bin;C:\\Ruby200\\bin;C:\\Program Files\\Common Files\\Microsoft Shared\\Microsoft Online Services;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Services\\IPT\\;C:\\Program Files\\NTRU Cryptosystems\\NTRU TCG Software Stack\\bin\\;C:\\Program Files\\Dell\\Dell Data Protection\\Access\\Advanced\\Wave\\Gemalto\\Access Client\\v5\\;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\ZipGenius 6\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\RSA Security\\RSA SecurID Software Token\\;C:\\Program Files\\jruby1.7.3\\Jruby\\lib;C:\\Program Files\\IBM_data_driver\\clidriver\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\jruby1.7.3\\Jruby\\bin;C:\\Python34;C:\\Python34\\Scripts;C:\\Program Files\\Java\\jre7\\bin;C:\\Program Files\\Java\\jdk1.7.0_05\\bin;E:\\Program Files\\nodejs\\;E:\\Appium_Setup_Files\\sdk\\tools;E:\\Appium_Setup_Files\\sdk\\platform-tools;E:\\Appium_Setup_Files\\sdk\\platforms;E:\\Ant\\apache-maven-3.0.3\\bin;C:\\IBMDB2\\clidriver\\bin;C:\\OracleDB \\instantclient_12_1;C:\\Program Files\\Skype\\Phone\\;C:\\jmeter\\apache-jmeter-2.13\\bin;D:\\AndroidSDK\\platform-tools\\;D:\\AndroidSDK\\tools\\;C:\\chromedriver_win32\\;C:\\Users\\ganesh.prabhakaran\\AppData\\Roaming\\npm;.;C:\\Program Files\\jruby\\bin/bin;.;C:/Ruby200/lib/ruby/gems/2.0.0/gems/ibm_db-2.6.1-x86-mingw32/lib/clidriver/bin"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["PATHEXT", ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.RB;.RBW"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["PROCESSOR_ARCHITECTURE", "x86"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["PROCESSOR_IDENTIFIER", "x86 Family 6 Model 42 Stepping 7, GenuineIntel"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["PROCESSOR_LEVEL", "6"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["PROCESSOR_REVISION", "2a07"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["ProgramData", "C:\\ProgramData"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["ProgramFiles", "C:\\Program Files"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["PROMPT", "$P$G"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["PSModulePath", "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["PUBLIC", "C:\\Users\\Public"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["RELEASE_VERSION", ""]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["RUBYLIB", "C:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.10.6/lib"]
+D, [2016-04-30T17:26:50.189855 #8856] DEBUG -- : a var: ["RUBYOPT", "-rbundler/setup"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["RYBUOPT", "rubygems"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["SESSIONNAME", "Console"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["SITE_INFO", "Started on 04/30/2016 05:21PM\n\nhttp://www.nike.com/us/en_us/\nCannot determine site environment."]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["SystemDrive", "C:"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["SystemRoot", "C:\\Windows"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["TEMP", "C:\\Users\\GANESH~1.PRA\\AppData\\Local\\Temp"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["TMP", "C:\\Users\\GANESH~1.PRA\\AppData\\Local\\Temp"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["URL", "http://www.nike.com/us/en_us/"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["USER", "ganesh.prabhakaran"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["USERDNSDOMAIN", "ASPIRESYS.COM"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["USERDOMAIN", "ASPIRESYS"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["USERNAME", "ganesh.prabhakaran"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["USERPROFILE", "C:\\Users\\ganesh.prabhakaran"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["VSEDEFLOGDIR", "C:\\ProgramData\\McAfee\\DesktopProtection"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["windir", "C:\\Windows"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["windows_tracing_flags", "3"]
+D, [2016-04-30T17:26:50.190855 #8856] DEBUG -- : a var: ["windows_tracing_logfile", "C:\\BVTBin\\Tests\\installpackage\\csilogfile.log"]

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="As a mobile user i want to select color for the product i wish to buy" skipped="0" tests="1" time="55.573000">
+<testcase classname="As a mobile user i want to select color for the product i wish to buy" name="As a mobile user i should see color name displayed for a product" time="55.573000">
+  <failure message="failed As a mobile user i should see color name displayed for a product" type="failed">
+    <![CDATA[Scenario: As a mobile user i should see color name displayed for a product
+
+Given I navigate to member PDP page that has "multiple color swatches"
+Then I should see color name and color options
+
+Message:
+]]>
+    <![CDATA[Element {:css=>"#b-j-product-image-0 .b-pdp-image"} was not present in 20 seconds (Selenium::WebDriver::Error::TimeOutError)
+./lib/utils/extensions/page-object/platforms/selenium_webdriver/element.rb:11:in `when_present'
+./lib/utils/extensions/page-object/accessors.rb:39:in `block in expected_element'
+./lib/mobile_website/pages/PDP_page.rb:453:in `initialize_page'
+./lib/utils/extensions/page-object/page_object.rb:43:in `block in initialize'
+./lib/utils/extensions/page-object/page_object.rb:57:in `call'
+./lib/utils/extensions/page-object/page_object.rb:57:in `block in perform_benchmark'
+./lib/utils/extensions/page-object/page_object.rb:57:in `perform_benchmark'
+./lib/utils/extensions/page-object/page_object.rb:35:in `initialize'
+./features/step_definitions/mobile_website/Direct_navigation_steps/url_navigation_steps.rb:15:in `/^I navigate to member PDP page(?: that has "?(.*?)"?)?$/'
+features\website\MobileFoundation\MEW\component_test\pdp_members\Common\pdpmem_color.feature:5:in `Given I navigate to member PDP page that has "multiple color swatches"']]>
+  </failure>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

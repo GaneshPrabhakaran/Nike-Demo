@@ -1,0 +1,97 @@
+# Logfile created on 2016-04-30 17:32:40 +0530 by logger.rb/41954
+D, [2016-04-30T17:32:40.569855 #9364] DEBUG -- : ID:        5cb9ac50-f0f9-0133-8c85-0bf7cfbd694f
+D, [2016-04-30T17:32:40.569855 #9364] DEBUG -- : Scenario:  Verify the functionality of Global Navigation menu
+D, [2016-04-30T17:32:40.569855 #9364] DEBUG -- : URL:       http://m.nike.com/us/en_us/
+D, [2016-04-30T17:32:40.589855 #9364] DEBUG -- : Test Host: windows 11.16.8.77
+D, [2016-04-30T17:32:40.590855 #9364] DEBUG -- : Grid Hub:  
+D, [2016-04-30T17:32:40.590855 #9364] DEBUG -- : Browser:   chromeiphone  
+D, [2016-04-30T17:32:40.590855 #9364] DEBUG -- : 
+D, [2016-04-30T17:33:05.699855 #9364] DEBUG -- : Deleting any previous user session cookies.
+D, [2016-04-30T17:33:05.711855 #9364] DEBUG -- : Finding cookies that match {:name=>"bloomingdales_online_uid"}
+D, [2016-04-30T17:33:05.747855 #9364] DEBUG -- : Setting cookie: {:name=>"bloomingdales_online_uid", :value=>"0", :domain=>"m.nike.com", :expires=>Fri, 01 May 2015 17:33:05 +0530}
+D, [2016-04-30T17:33:05.762855 #9364] DEBUG -- : Adding cookie {:path=>"/", :domain=>"m.nike.com", :name=>"bloomingdales_online_uid", :value=>"0", :expires=>Fri, 01 May 2015 17:33:05 +0530}
+D, [2016-04-30T17:33:05.795855 #9364] DEBUG -- : Setting cookie: {:name=>"fsr.r", :value=>"{\\\"d\\\":90,\\\"i\\\":\\\"de25df2-105324912-a3ea-edc0-dcdd0\\\",\\\"e\\\":1406678138341}", :path=>"/", :secure=>false}
+D, [2016-04-30T17:33:05.806855 #9364] DEBUG -- : Adding cookie {:path=>"/", :domain=>nil, :name=>"fsr.r", :value=>"{\\\"d\\\":90,\\\"i\\\":\\\"de25df2-105324912-a3ea-edc0-dcdd0\\\",\\\"e\\\":1406678138341}", :secure=>false}
+D, [2016-04-30T17:33:05.818855 #9364] DEBUG -- : Setting cookie: {:name=>"fsr.s", :value=>"{\\\"v\\\":1,\\\"rid\\\":\\\"de25df2-105324912-a3ea-edc0-dcdd0\\\",\\\"cp\\\":{\\\"isAuthenticated\\\":\\\"none\\\",\\\"MEW_2_0\\\":\\\"2.0\\\",\\\"Currency\\\":\\\"false\\\",\\\"Shipping_Country\\\":\\\"false\\\"},\\\"to\\\":3.1,\\\"c\\\":\\\"\#{ExecutionEnvironment.host_name}\\\",\\\"pv\\\":10,\\\"lc\\\":{\\\"d0\\\":{\\\"v\\\":10,\\\"s\\\":true}},\\\"cd\\\":0,\\\"sd\\\":0,\\\"l\\\":\\\"en\\\",\\\"i\\\":-1,\\\"f\\\":1406073395349}", :path=>"/", :secure=>false}
+D, [2016-04-30T17:33:05.829855 #9364] DEBUG -- : Adding cookie {:path=>"/", :domain=>nil, :name=>"fsr.s", :value=>"{\\\"v\\\":1,\\\"rid\\\":\\\"de25df2-105324912-a3ea-edc0-dcdd0\\\",\\\"cp\\\":{\\\"isAuthenticated\\\":\\\"none\\\",\\\"MEW_2_0\\\":\\\"2.0\\\",\\\"Currency\\\":\\\"false\\\",\\\"Shipping_Country\\\":\\\"false\\\"},\\\"to\\\":3.1,\\\"c\\\":\\\"\#{ExecutionEnvironment.host_name}\\\",\\\"pv\\\":10,\\\"lc\\\":{\\\"d0\\\":{\\\"v\\\":10,\\\"s\\\":true}},\\\"cd\\\":0,\\\"sd\\\":0,\\\"l\\\":\\\"en\\\",\\\"i\\\":-1,\\\"f\\\":1406073395349}", :secure=>false}
+D, [2016-04-30T17:33:05.841855 #9364] DEBUG -- : Setting cookie: {:name=>"SEGMENT", :value=>"%7B%22EXPERIMENT%22%3A%5B%5D%7D", :domain=>"nike.com", :path=>"/"}
+D, [2016-04-30T17:33:05.853855 #9364] DEBUG -- : Adding cookie {:path=>"/", :domain=>"nike.com", :name=>"SEGMENT", :value=>"%7B%22EXPERIMENT%22%3A%5B%5D%7D"}
+D, [2016-04-30T17:33:16.089855 #9364] DEBUG -- : User is navigated to home page
+D, [2016-04-30T17:33:16.102855 #9364] DEBUG -- : Step complete: I am on mobile home page".
+	Ending URL: http://m.nike.com/us/en_us/
+	Location: features\mobile_website\mobile_nike.feature:5
+D, [2016-04-30T17:33:16.102855 #9364] DEBUG -- : 
+D, [2016-04-30T17:33:16.206855 #9364] DEBUG -- : User clicked the Global Navigation link successfully!!
+D, [2016-04-30T17:33:16.248855 #9364] DEBUG -- : Step complete: I tap on Global Navigation link".
+	Ending URL: http://m.nike.com/us/en_us/
+	Location: features\mobile_website\mobile_nike.feature:6
+D, [2016-04-30T17:33:16.248855 #9364] DEBUG -- : 
+D, [2016-04-30T17:33:20.310855 #9364] DEBUG -- : Global Navigation menu is displayed!!
+D, [2016-04-30T17:33:20.321855 #9364] DEBUG -- : Step complete: I should see the Global Navigation menu displayed".
+	Ending URL: http://m.nike.com/us/en_us/
+	Location: features\mobile_website\mobile_nike.feature:7
+D, [2016-04-30T17:33:20.321855 #9364] DEBUG -- : 
+D, [2016-04-30T17:33:20.325855 #9364] DEBUG -- : 
+D, [2016-04-30T17:33:20.325855 #9364] DEBUG -- : Finished Scenario: Verify the functionality of Global Navigation menu
+D, [2016-04-30T17:33:20.325855 #9364] DEBUG -- : Status: passed
+D, [2016-04-30T17:33:20.325855 #9364] DEBUG -- : Quitting browser instance...
+D, [2016-04-30T17:33:25.422855 #9364] DEBUG -- : a var: ["ALLUSERSPROFILE", "C:\\ProgramData"]
+D, [2016-04-30T17:33:25.422855 #9364] DEBUG -- : a var: ["ANDROID_HOME", "D:\\AndroidSDK"]
+D, [2016-04-30T17:33:25.422855 #9364] DEBUG -- : a var: ["ANSICON", "80x300 (80x25)"]
+D, [2016-04-30T17:33:25.422855 #9364] DEBUG -- : a var: ["ANSICON_DEF", "7"]
+D, [2016-04-30T17:33:25.422855 #9364] DEBUG -- : a var: ["APPDATA", "C:\\Users\\ganesh.prabhakaran\\AppData\\Roaming"]
+D, [2016-04-30T17:33:25.422855 #9364] DEBUG -- : a var: ["BUNDLE_BIN_PATH", "C:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.10.6/bin/bundle"]
+D, [2016-04-30T17:33:25.423855 #9364] DEBUG -- : a var: ["BUNDLE_GEMFILE", "D:/repo_QAA/NikeQAA-demo/QAA/Gemfile"]
+D, [2016-04-30T17:33:25.423855 #9364] DEBUG -- : a var: ["CommonProgramFiles", "C:\\Program Files\\Common Files"]
+D, [2016-04-30T17:33:25.423855 #9364] DEBUG -- : a var: ["COMPUTERNAME", "ASPIRE1098"]
+D, [2016-04-30T17:33:25.423855 #9364] DEBUG -- : a var: ["ComSpec", "C:\\Windows\\system32\\cmd.exe"]
+D, [2016-04-30T17:33:25.423855 #9364] DEBUG -- : a var: ["DEFLOGDIR", "C:\\ProgramData\\McAfee\\DesktopProtection"]
+D, [2016-04-30T17:33:25.423855 #9364] DEBUG -- : a var: ["DellClientSystemUpdatePath", "C:\\Program Files\\Dell\\ClientSystemUpdate\\"]
+D, [2016-04-30T17:33:25.423855 #9364] DEBUG -- : a var: ["DEVICE", "ChromeIphone"]
+D, [2016-04-30T17:33:25.423855 #9364] DEBUG -- : a var: ["ENABLE_SCREENSHOTS", "yes"]
+D, [2016-04-30T17:33:25.424855 #9364] DEBUG -- : a var: ["FP_NO_HOST_CHECK", "NO"]
+D, [2016-04-30T17:33:25.424855 #9364] DEBUG -- : a var: ["GEM_HOME", "C:/Ruby200/lib/ruby/gems/2.0.0"]
+D, [2016-04-30T17:33:25.424855 #9364] DEBUG -- : a var: ["GEM_PATH", "C:/Ruby200/lib/ruby/gems/2.0.0;C:/Users/ganesh.prabhakaran/.gem/ruby/2.0.0"]
+D, [2016-04-30T17:33:25.424855 #9364] DEBUG -- : a var: ["HOME", "C:/Users/ganesh.prabhakaran"]
+D, [2016-04-30T17:33:25.424855 #9364] DEBUG -- : a var: ["HOMEDRIVE", "C:"]
+D, [2016-04-30T17:33:25.424855 #9364] DEBUG -- : a var: ["HOMEPATH", "\\Users\\ganesh.prabhakaran"]
+D, [2016-04-30T17:33:25.424855 #9364] DEBUG -- : a var: ["IBM_DB_HOME", "C:\\Program Files\\jruby\\bin"]
+D, [2016-04-30T17:33:25.425855 #9364] DEBUG -- : a var: ["JAVA_HOME", "C:\\Program Files\\Java\\jdk1.7.0_05"]
+D, [2016-04-30T17:33:25.425855 #9364] DEBUG -- : a var: ["LOCALAPPDATA", "C:\\Users\\ganesh.prabhakaran\\AppData\\Local"]
+D, [2016-04-30T17:33:25.425855 #9364] DEBUG -- : a var: ["LOGONSERVER", "\\\\ASPBS-02"]
+D, [2016-04-30T17:33:25.425855 #9364] DEBUG -- : a var: ["M2_HOME", "E:\\Ant\\apache-maven-3.0.3"]
+D, [2016-04-30T17:33:25.425855 #9364] DEBUG -- : a var: ["MAGICK_CODER_MODULE_PATH", "C:/Ruby200/lib/ruby/gems/2.0.0/gems/win32screenshot-1.0.10/lib/win32/../../ext/modules/coders"]
+D, [2016-04-30T17:33:25.425855 #9364] DEBUG -- : a var: ["NUMBER_OF_PROCESSORS", "4"]
+D, [2016-04-30T17:33:25.425855 #9364] DEBUG -- : a var: ["OS", "Windows_NT"]
+D, [2016-04-30T17:33:25.426855 #9364] DEBUG -- : a var: ["Path", "C:/Ruby200/lib/ruby/gems/2.0.0/gems/win32screenshot-1.0.10/lib/win32/../../ext;C:/Ruby200/lib/ruby/gems/2.0.0/bin;C:\\Ruby200\\bin;C:\\Program Files\\Common Files\\Microsoft Shared\\Microsoft Online Services;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Services\\IPT\\;C:\\Program Files\\NTRU Cryptosystems\\NTRU TCG Software Stack\\bin\\;C:\\Program Files\\Dell\\Dell Data Protection\\Access\\Advanced\\Wave\\Gemalto\\Access Client\\v5\\;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\ZipGenius 6\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\RSA Security\\RSA SecurID Software Token\\;C:\\Program Files\\jruby1.7.3\\Jruby\\lib;C:\\Program Files\\IBM_data_driver\\clidriver\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\jruby1.7.3\\Jruby\\bin;C:\\Python34;C:\\Python34\\Scripts;C:\\Program Files\\Java\\jre7\\bin;C:\\Program Files\\Java\\jdk1.7.0_05\\bin;E:\\Program Files\\nodejs\\;E:\\Appium_Setup_Files\\sdk\\tools;E:\\Appium_Setup_Files\\sdk\\platform-tools;E:\\Appium_Setup_Files\\sdk\\platforms;E:\\Ant\\apache-maven-3.0.3\\bin;C:\\IBMDB2\\clidriver\\bin;C:\\OracleDB \\instantclient_12_1;C:\\Program Files\\Skype\\Phone\\;C:\\jmeter\\apache-jmeter-2.13\\bin;D:\\AndroidSDK\\platform-tools\\;D:\\AndroidSDK\\tools\\;C:\\chromedriver_win32\\;C:\\Users\\ganesh.prabhakaran\\AppData\\Roaming\\npm;.;C:\\Program Files\\jruby\\bin/bin;.;C:/Ruby200/lib/ruby/gems/2.0.0/gems/ibm_db-2.6.1-x86-mingw32/lib/clidriver/bin"]
+D, [2016-04-30T17:33:25.426855 #9364] DEBUG -- : a var: ["PATHEXT", ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.RB;.RBW"]
+D, [2016-04-30T17:33:25.426855 #9364] DEBUG -- : a var: ["PROCESSOR_ARCHITECTURE", "x86"]
+D, [2016-04-30T17:33:25.426855 #9364] DEBUG -- : a var: ["PROCESSOR_IDENTIFIER", "x86 Family 6 Model 42 Stepping 7, GenuineIntel"]
+D, [2016-04-30T17:33:25.426855 #9364] DEBUG -- : a var: ["PROCESSOR_LEVEL", "6"]
+D, [2016-04-30T17:33:25.427855 #9364] DEBUG -- : a var: ["PROCESSOR_REVISION", "2a07"]
+D, [2016-04-30T17:33:25.427855 #9364] DEBUG -- : a var: ["ProgramData", "C:\\ProgramData"]
+D, [2016-04-30T17:33:25.427855 #9364] DEBUG -- : a var: ["ProgramFiles", "C:\\Program Files"]
+D, [2016-04-30T17:33:25.427855 #9364] DEBUG -- : a var: ["PROJECT", "mobile_website"]
+D, [2016-04-30T17:33:25.428855 #9364] DEBUG -- : a var: ["PROMPT", "$P$G"]
+D, [2016-04-30T17:33:25.428855 #9364] DEBUG -- : a var: ["PSModulePath", "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\"]
+D, [2016-04-30T17:33:25.428855 #9364] DEBUG -- : a var: ["PUBLIC", "C:\\Users\\Public"]
+D, [2016-04-30T17:33:25.428855 #9364] DEBUG -- : a var: ["RELEASE_VERSION", ""]
+D, [2016-04-30T17:33:25.429855 #9364] DEBUG -- : a var: ["RUBYLIB", "C:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.10.6/lib"]
+D, [2016-04-30T17:33:25.429855 #9364] DEBUG -- : a var: ["RUBYOPT", "-rbundler/setup"]
+D, [2016-04-30T17:33:25.429855 #9364] DEBUG -- : a var: ["RYBUOPT", "rubygems"]
+D, [2016-04-30T17:33:25.429855 #9364] DEBUG -- : a var: ["SESSIONNAME", "Console"]
+D, [2016-04-30T17:33:25.429855 #9364] DEBUG -- : a var: ["SITE_INFO", "Started on 04/30/2016 05:32PM\n\nhttp://m.nike.com/us/en_us/\nCannot determine site environment."]
+D, [2016-04-30T17:33:25.429855 #9364] DEBUG -- : a var: ["SystemDrive", "C:"]
+D, [2016-04-30T17:33:25.429855 #9364] DEBUG -- : a var: ["SystemRoot", "C:\\Windows"]
+D, [2016-04-30T17:33:25.429855 #9364] DEBUG -- : a var: ["TEMP", "C:\\Users\\GANESH~1.PRA\\AppData\\Local\\Temp"]
+D, [2016-04-30T17:33:25.429855 #9364] DEBUG -- : a var: ["TMP", "C:\\Users\\GANESH~1.PRA\\AppData\\Local\\Temp"]
+D, [2016-04-30T17:33:25.430855 #9364] DEBUG -- : a var: ["URL", "http://m.nike.com/us/en_us/"]
+D, [2016-04-30T17:33:25.430855 #9364] DEBUG -- : a var: ["USER", "ganesh.prabhakaran"]
+D, [2016-04-30T17:33:25.430855 #9364] DEBUG -- : a var: ["USERDNSDOMAIN", "ASPIRESYS.COM"]
+D, [2016-04-30T17:33:25.430855 #9364] DEBUG -- : a var: ["USERDOMAIN", "ASPIRESYS"]
+D, [2016-04-30T17:33:25.430855 #9364] DEBUG -- : a var: ["USERNAME", "ganesh.prabhakaran"]
+D, [2016-04-30T17:33:25.431855 #9364] DEBUG -- : a var: ["USERPROFILE", "C:\\Users\\ganesh.prabhakaran"]
+D, [2016-04-30T17:33:25.431855 #9364] DEBUG -- : a var: ["VSEDEFLOGDIR", "C:\\ProgramData\\McAfee\\DesktopProtection"]
+D, [2016-04-30T17:33:25.431855 #9364] DEBUG -- : a var: ["windir", "C:\\Windows"]
+D, [2016-04-30T17:33:25.431855 #9364] DEBUG -- : a var: ["windows_tracing_flags", "3"]
+D, [2016-04-30T17:33:25.431855 #9364] DEBUG -- : a var: ["windows_tracing_logfile", "C:\\BVTBin\\Tests\\installpackage\\csilogfile.log"]

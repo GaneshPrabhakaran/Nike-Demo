@@ -1,0 +1,170 @@
+# Logfile created on 2016-04-30 17:13:14 +0530 by logger.rb/41954
+D, [2016-04-30T17:13:14.503855 #3668] DEBUG -- : ID:        a5a06bf0-f0f6-0133-8c77-0bf7cfbd694f
+D, [2016-04-30T17:13:14.503855 #3668] DEBUG -- : Scenario:  | GIRLS | UNLEASH YOUR |
+D, [2016-04-30T17:13:14.504855 #3668] DEBUG -- : URL:       http://www.nike.com/us/en_us/
+D, [2016-04-30T17:13:14.504855 #3668] DEBUG -- : Test Host: windows 11.16.8.77
+D, [2016-04-30T17:13:14.504855 #3668] DEBUG -- : Grid Hub:  
+D, [2016-04-30T17:13:14.505855 #3668] DEBUG -- : Browser:   chrome  
+D, [2016-04-30T17:13:14.505855 #3668] DEBUG -- : 
+D, [2016-04-30T17:13:55.978855 #3668] DEBUG -- : User is navigated to home page
+D, [2016-04-30T17:13:55.989855 #3668] DEBUG -- : Step complete: I am on browser home page".
+	Ending URL: http://www.nike.com/us/en_us/
+	Location: features\website\desktop_nike.feature:11
+D, [2016-04-30T17:13:55.989855 #3668] DEBUG -- : 
+E, [2016-04-30T17:13:56.039855 #3668] ERROR -- : The following exception occurred when checking for errors on the page: uninitialized constant ErrorHandling
+D, [2016-04-30T17:13:56.218855 #3668] DEBUG -- : The header GIRLS is clicked!!
+D, [2016-04-30T17:13:56.230855 #3668] DEBUG -- : Step complete: I tap "<category>" in the header".
+	Ending URL: http://www.nike.com/us/en_us/
+	Location: features\website\desktop_nike.feature:12
+D, [2016-04-30T17:13:56.230855 #3668] DEBUG -- : 
+E, [2016-04-30T17:13:56.233855 #3668] ERROR -- : The following exception occurred when checking for errors on the page: uninitialized constant ErrorHandling
+D, [2016-04-30T17:14:03.763855 #3668] DEBUG -- : The URL and image GIRLS is displayed!!
+D, [2016-04-30T17:14:03.775855 #3668] DEBUG -- : Step complete: I should see the URL and header corresponding to "<category>"".
+	Ending URL: http://www.nike.com/us/en_us/c/girls
+	Location: features\website\desktop_nike.feature:13
+D, [2016-04-30T17:14:03.775855 #3668] DEBUG -- : 
+E, [2016-04-30T17:14:03.778855 #3668] ERROR -- : The following exception occurred when checking for errors on the page: uninitialized constant ErrorHandling
+E, [2016-04-30T17:14:06.092855 #3668] ERROR -- : Exception: 
+expected: "UNLEASH YOUR"
+     got: "FLYKNIT. NOW FOR"
+
+(compared using eql?)
+
+./features/step_definitions/website/home_page.rb:59:in `/^I should see the (.*?) text of image in the page$/'
+features\website\desktop_nike.feature:14:in `And I should see the <text> text of image in the page'
+E, [2016-04-30T17:14:06.094855 #3668] ERROR -- : The following exception occurred when checking for errors on the page: uninitialized constant ErrorHandling
+E, [2016-04-30T17:14:06.096855 #3668] ERROR -- : Unable to take desktop screenshot: uninitialized constant Triage::Screenshots::Desktop::Factory D:/repo_QAA/NikeQAA-demo/QAA/support/website/hooks.rb:184:in `block in <top (required)>'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/core_ext/instance_exec.rb:48:in `instance_exec'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/core_ext/instance_exec.rb:48:in `block in cucumber_instance_exec'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/core_ext/instance_exec.rb:69:in `cucumber_run_with_backtrace_filtering'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/core_ext/instance_exec.rb:36:in `cucumber_instance_exec'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/rb_support/rb_hook.rb:14:in `invoke'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/language_support/language_methods.rb:114:in `invoke'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/language_support/language_methods.rb:108:in `block in execute_after'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/language_support/language_methods.rb:107:in `reverse_each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/language_support/language_methods.rb:107:in `execute_after'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/language_support/language_methods.rb:19:in `after'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime/support_code.rb:112:in `block in fire_hook'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime/support_code.rb:111:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime/support_code.rb:111:in `fire_hook'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime.rb:113:in `after'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime.rb:100:in `before_and_after'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime.rb:82:in `block in with_hooks'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime/support_code.rb:120:in `call'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime/support_code.rb:120:in `block (3 levels) in around'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/language_support/language_methods.rb:9:in `block in around'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/language_support/language_methods.rb:97:in `call'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/language_support/language_methods.rb:97:in `execute_around'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/language_support/language_methods.rb:8:in `around'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime/support_code.rb:119:in `block (2 levels) in around'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime/support_code.rb:123:in `call'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime/support_code.rb:123:in `around'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime.rb:94:in `around'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime.rb:81:in `with_hooks'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/outline_table.rb:117:in `accept_plain'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/outline_table.rb:107:in `accept'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:138:in `block in visit_table_row'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:170:in `broadcast'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:137:in `visit_table_row'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/outline_table.rb:27:in `block in accept'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/outline_table.rb:23:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/outline_table.rb:23:in `each_with_index'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/outline_table.rb:23:in `accept'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:90:in `block in visit_outline_table'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:170:in `broadcast'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:89:in `visit_outline_table'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/examples.rb:25:in `accept'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:80:in `block in visit_examples'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:170:in `broadcast'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:79:in `visit_examples'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/scenario_outline.rb:19:in `block in accept'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/scenario_outline.rb:18:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/scenario_outline.rb:18:in `accept'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:74:in `block in visit_examples_array'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:170:in `broadcast'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:73:in `visit_examples_array'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/scenario_outline.rb:45:in `accept'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:58:in `block in visit_feature_element'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:170:in `broadcast'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:57:in `visit_feature_element'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/feature.rb:38:in `block in accept'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/feature.rb:37:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/feature.rb:37:in `accept'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:27:in `block in visit_feature'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:170:in `broadcast'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:26:in `visit_feature'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/features.rb:28:in `block in accept'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/features.rb:17:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/features.rb:17:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/features.rb:27:in `accept'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:21:in `block in visit_features'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:170:in `broadcast'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/ast/tree_walker.rb:20:in `visit_features'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/runtime.rb:49:in `run!'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/lib/cucumber/cli/main.rb:47:in `execute!'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/cucumber-1.3.17/bin/cucumber:13:in `<top (required)>'
+C:/Ruby200/bin/cucumber:23:in `load'
+C:/Ruby200/bin/cucumber:23:in `<main>'
+D, [2016-04-30T17:14:08.922855 #3668] DEBUG -- : 
+D, [2016-04-30T17:14:08.923855 #3668] DEBUG -- : Finished Scenario: | GIRLS | UNLEASH YOUR |
+D, [2016-04-30T17:14:08.924855 #3668] DEBUG -- : Status: failed
+D, [2016-04-30T17:14:08.924855 #3668] DEBUG -- : Saving snapshot to "D:/repo_QAA/NikeQAA-demo/QAA/log/screenshot_20160430-171408.png"...
+D, [2016-04-30T17:14:09.365855 #3668] DEBUG -- : Quitting browser instance...
+D, [2016-04-30T17:14:14.418855 #3668] DEBUG -- : a var: ["ALLUSERSPROFILE", "C:\\ProgramData"]
+D, [2016-04-30T17:14:14.419855 #3668] DEBUG -- : a var: ["ANDROID_HOME", "D:\\AndroidSDK"]
+D, [2016-04-30T17:14:14.419855 #3668] DEBUG -- : a var: ["ANSICON", "80x300 (80x25)"]
+D, [2016-04-30T17:14:14.419855 #3668] DEBUG -- : a var: ["ANSICON_DEF", "7"]
+D, [2016-04-30T17:14:14.419855 #3668] DEBUG -- : a var: ["APPDATA", "C:\\Users\\ganesh.prabhakaran\\AppData\\Roaming"]
+D, [2016-04-30T17:14:14.419855 #3668] DEBUG -- : a var: ["BUNDLE_BIN_PATH", "C:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.10.6/bin/bundle"]
+D, [2016-04-30T17:14:14.419855 #3668] DEBUG -- : a var: ["BUNDLE_GEMFILE", "D:/repo_QAA/NikeQAA-demo/QAA/Gemfile"]
+D, [2016-04-30T17:14:14.419855 #3668] DEBUG -- : a var: ["CommonProgramFiles", "C:\\Program Files\\Common Files"]
+D, [2016-04-30T17:14:14.419855 #3668] DEBUG -- : a var: ["COMPUTERNAME", "ASPIRE1098"]
+D, [2016-04-30T17:14:14.420855 #3668] DEBUG -- : a var: ["ComSpec", "C:\\Windows\\system32\\cmd.exe"]
+D, [2016-04-30T17:14:14.420855 #3668] DEBUG -- : a var: ["DEFLOGDIR", "C:\\ProgramData\\McAfee\\DesktopProtection"]
+D, [2016-04-30T17:14:14.420855 #3668] DEBUG -- : a var: ["DellClientSystemUpdatePath", "C:\\Program Files\\Dell\\ClientSystemUpdate\\"]
+D, [2016-04-30T17:14:14.420855 #3668] DEBUG -- : a var: ["DEVICE", "Chrome"]
+D, [2016-04-30T17:14:14.420855 #3668] DEBUG -- : a var: ["FP_NO_HOST_CHECK", "NO"]
+D, [2016-04-30T17:14:14.420855 #3668] DEBUG -- : a var: ["GEM_HOME", "C:/Ruby200/lib/ruby/gems/2.0.0"]
+D, [2016-04-30T17:14:14.420855 #3668] DEBUG -- : a var: ["GEM_PATH", "C:/Ruby200/lib/ruby/gems/2.0.0;C:/Users/ganesh.prabhakaran/.gem/ruby/2.0.0"]
+D, [2016-04-30T17:14:14.421855 #3668] DEBUG -- : a var: ["HOME", "C:/Users/ganesh.prabhakaran"]
+D, [2016-04-30T17:14:14.421855 #3668] DEBUG -- : a var: ["HOMEDRIVE", "C:"]
+D, [2016-04-30T17:14:14.421855 #3668] DEBUG -- : a var: ["HOMEPATH", "\\Users\\ganesh.prabhakaran"]
+D, [2016-04-30T17:14:14.421855 #3668] DEBUG -- : a var: ["IBM_DB_HOME", "C:\\Program Files\\jruby\\bin"]
+D, [2016-04-30T17:14:14.421855 #3668] DEBUG -- : a var: ["JAVA_HOME", "C:\\Program Files\\Java\\jdk1.7.0_05"]
+D, [2016-04-30T17:14:14.421855 #3668] DEBUG -- : a var: ["LOCALAPPDATA", "C:\\Users\\ganesh.prabhakaran\\AppData\\Local"]
+D, [2016-04-30T17:14:14.421855 #3668] DEBUG -- : a var: ["LOGONSERVER", "\\\\ASPBS-02"]
+D, [2016-04-30T17:14:14.422855 #3668] DEBUG -- : a var: ["M2_HOME", "E:\\Ant\\apache-maven-3.0.3"]
+D, [2016-04-30T17:14:14.422855 #3668] DEBUG -- : a var: ["MAGICK_CODER_MODULE_PATH", "C:/Ruby200/lib/ruby/gems/2.0.0/gems/win32screenshot-1.0.10/lib/win32/../../ext/modules/coders"]
+D, [2016-04-30T17:14:14.422855 #3668] DEBUG -- : a var: ["NUMBER_OF_PROCESSORS", "4"]
+D, [2016-04-30T17:14:14.422855 #3668] DEBUG -- : a var: ["OS", "Windows_NT"]
+D, [2016-04-30T17:14:14.422855 #3668] DEBUG -- : a var: ["Path", "C:/Ruby200/lib/ruby/gems/2.0.0/gems/win32screenshot-1.0.10/lib/win32/../../ext;C:/Ruby200/lib/ruby/gems/2.0.0/bin;C:\\Ruby200\\bin;C:\\Program Files\\Common Files\\Microsoft Shared\\Microsoft Online Services;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Services\\IPT\\;C:\\Program Files\\NTRU Cryptosystems\\NTRU TCG Software Stack\\bin\\;C:\\Program Files\\Dell\\Dell Data Protection\\Access\\Advanced\\Wave\\Gemalto\\Access Client\\v5\\;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\ZipGenius 6\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\RSA Security\\RSA SecurID Software Token\\;C:\\Program Files\\jruby1.7.3\\Jruby\\lib;C:\\Program Files\\IBM_data_driver\\clidriver\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\jruby1.7.3\\Jruby\\bin;C:\\Python34;C:\\Python34\\Scripts;C:\\Program Files\\Java\\jre7\\bin;C:\\Program Files\\Java\\jdk1.7.0_05\\bin;E:\\Program Files\\nodejs\\;E:\\Appium_Setup_Files\\sdk\\tools;E:\\Appium_Setup_Files\\sdk\\platform-tools;E:\\Appium_Setup_Files\\sdk\\platforms;E:\\Ant\\apache-maven-3.0.3\\bin;C:\\IBMDB2\\clidriver\\bin;C:\\OracleDB \\instantclient_12_1;C:\\Program Files\\Skype\\Phone\\;C:\\jmeter\\apache-jmeter-2.13\\bin;D:\\AndroidSDK\\platform-tools\\;D:\\AndroidSDK\\tools\\;C:\\chromedriver_win32\\;C:\\Users\\ganesh.prabhakaran\\AppData\\Roaming\\npm;.;C:\\Program Files\\jruby\\bin/bin;.;C:/Ruby200/lib/ruby/gems/2.0.0/gems/ibm_db-2.6.1-x86-mingw32/lib/clidriver/bin"]
+D, [2016-04-30T17:14:14.422855 #3668] DEBUG -- : a var: ["PATHEXT", ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.RB;.RBW"]
+D, [2016-04-30T17:14:14.422855 #3668] DEBUG -- : a var: ["PROCESSOR_ARCHITECTURE", "x86"]
+D, [2016-04-30T17:14:14.423855 #3668] DEBUG -- : a var: ["PROCESSOR_IDENTIFIER", "x86 Family 6 Model 42 Stepping 7, GenuineIntel"]
+D, [2016-04-30T17:14:14.423855 #3668] DEBUG -- : a var: ["PROCESSOR_LEVEL", "6"]
+D, [2016-04-30T17:14:14.423855 #3668] DEBUG -- : a var: ["PROCESSOR_REVISION", "2a07"]
+D, [2016-04-30T17:14:14.423855 #3668] DEBUG -- : a var: ["ProgramData", "C:\\ProgramData"]
+D, [2016-04-30T17:14:14.423855 #3668] DEBUG -- : a var: ["ProgramFiles", "C:\\Program Files"]
+D, [2016-04-30T17:14:14.423855 #3668] DEBUG -- : a var: ["PROMPT", "$P$G"]
+D, [2016-04-30T17:14:14.423855 #3668] DEBUG -- : a var: ["PSModulePath", "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\"]
+D, [2016-04-30T17:14:14.424855 #3668] DEBUG -- : a var: ["PUBLIC", "C:\\Users\\Public"]
+D, [2016-04-30T17:14:14.424855 #3668] DEBUG -- : a var: ["RELEASE_VERSION", ""]
+D, [2016-04-30T17:14:14.424855 #3668] DEBUG -- : a var: ["RUBYLIB", "C:/Ruby200/lib/ruby/gems/2.0.0/gems/bundler-1.10.6/lib"]
+D, [2016-04-30T17:14:14.424855 #3668] DEBUG -- : a var: ["RUBYOPT", "-rbundler/setup"]
+D, [2016-04-30T17:14:14.424855 #3668] DEBUG -- : a var: ["RYBUOPT", "rubygems"]
+D, [2016-04-30T17:14:14.424855 #3668] DEBUG -- : a var: ["SESSIONNAME", "Console"]
+D, [2016-04-30T17:14:14.424855 #3668] DEBUG -- : a var: ["SITE_INFO", "Started on 04/30/2016 05:10PM\n\nhttp://www.nike.com/us/en_us/\nCannot determine site environment."]
+D, [2016-04-30T17:14:14.424855 #3668] DEBUG -- : a var: ["SystemDrive", "C:"]
+D, [2016-04-30T17:14:14.426855 #3668] DEBUG -- : a var: ["SystemRoot", "C:\\Windows"]
+D, [2016-04-30T17:14:14.427855 #3668] DEBUG -- : a var: ["TEMP", "C:\\Users\\GANESH~1.PRA\\AppData\\Local\\Temp"]
+D, [2016-04-30T17:14:14.427855 #3668] DEBUG -- : a var: ["TMP", "C:\\Users\\GANESH~1.PRA\\AppData\\Local\\Temp"]
+D, [2016-04-30T17:14:14.427855 #3668] DEBUG -- : a var: ["URL", "http://www.nike.com/us/en_us/"]
+D, [2016-04-30T17:14:14.427855 #3668] DEBUG -- : a var: ["USER", "ganesh.prabhakaran"]
+D, [2016-04-30T17:14:14.427855 #3668] DEBUG -- : a var: ["USERDNSDOMAIN", "ASPIRESYS.COM"]
+D, [2016-04-30T17:14:14.427855 #3668] DEBUG -- : a var: ["USERDOMAIN", "ASPIRESYS"]
+D, [2016-04-30T17:14:14.427855 #3668] DEBUG -- : a var: ["USERNAME", "ganesh.prabhakaran"]
+D, [2016-04-30T17:14:14.428855 #3668] DEBUG -- : a var: ["USERPROFILE", "C:\\Users\\ganesh.prabhakaran"]
+D, [2016-04-30T17:14:14.428855 #3668] DEBUG -- : a var: ["VSEDEFLOGDIR", "C:\\ProgramData\\McAfee\\DesktopProtection"]
+D, [2016-04-30T17:14:14.428855 #3668] DEBUG -- : a var: ["windir", "C:\\Windows"]
+D, [2016-04-30T17:14:14.428855 #3668] DEBUG -- : a var: ["windows_tracing_flags", "3"]
+D, [2016-04-30T17:14:14.428855 #3668] DEBUG -- : a var: ["windows_tracing_logfile", "C:\\BVTBin\\Tests\\installpackage\\csilogfile.log"]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="As a mobile user need to check the order of the wallet" skipped="0" tests="1" time="183.608000">
+<testcase classname="As a mobile user need to check the order of the wallet" name="As a signed-in user need to check the order of the wallet" time="183.608000">
+  <failure message="failed As a signed-in user need to check the order of the wallet" type="failed">
+    <![CDATA[Scenario: As a signed-in user need to check the order of the wallet
+
+Given I am on mobile web home page
+And I sign in as a new user
+When I navigate to MyWallet page
+Then I should see the orders in the wallet properly
+
+Message:
+]]>
+    <![CDATA[Element {:id=>"m-wallet-header"} was not present in 20 seconds (Selenium::WebDriver::Error::TimeOutError)
+./lib/utils/extensions/page-object/platforms/selenium_webdriver/element.rb:11:in `when_present'
+./lib/utils/extensions/page-object/accessors.rb:39:in `block in expected_element'
+./lib/mobile_website/pages/wallet_landing_page.rb:83:in `initialize_page'
+./lib/utils/extensions/page-object/page_object.rb:43:in `block in initialize'
+./lib/utils/extensions/page-object/page_object.rb:57:in `call'
+./lib/utils/extensions/page-object/page_object.rb:57:in `block in perform_benchmark'
+./lib/utils/extensions/page-object/page_object.rb:57:in `perform_benchmark'
+./lib/utils/extensions/page-object/page_object.rb:35:in `initialize'
+./features/step_definitions/mobile_website/component_test/wallet/wallet_mbmoney_steps.rb:3:in `/^I navigate to MyWallet page$/'
+features\website\MobileFoundation\MEW\component_test\mbMoney\mMoney_wallet_order.feature:7:in `When I navigate to MyWallet page']]>
+  </failure>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

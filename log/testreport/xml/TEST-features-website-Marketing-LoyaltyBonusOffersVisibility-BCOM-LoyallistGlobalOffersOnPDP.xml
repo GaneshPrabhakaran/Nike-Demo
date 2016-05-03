@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="As a bloomingdales.com customer, I verify the global Loyallist offer information on the PDP page." skipped="3" tests="3" time="120.408000">
+<testcase classname="As a bloomingdales.com customer, I verify the global Loyallist offer information on the PDP page." name="Verify coremetrics tag for loyallist global offer main callout on pdp (outline example : | guest user | Loyalty_Offer_Fixed | member_product |)" time="45.030000">
+  <skipped/>
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="As a bloomingdales.com customer, I verify the global Loyallist offer information on the PDP page." name="Verify coremetrics tag for loyallist global offer main callout on pdp (outline example : | registered user | Loyalty_Offer_Multiplier | member_product |)" time="32.579000">
+  <skipped/>
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="As a bloomingdales.com customer, I verify the global Loyallist offer information on the PDP page." name="Verify coremetrics tag for loyallist global offer main callout on pdp (outline example : | loyallist | Loyalty_Offer_Fixed | master_product |)" time="42.799000">
+  <skipped/>
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

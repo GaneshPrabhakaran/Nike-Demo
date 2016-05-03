@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Verify if a user is able to view the page contents properly" skipped="0" tests="6" time="415.331000">
+<testcase classname="Verify if a user is able to view the page contents properly" name="Verify the navigation of images on clicking arrow button in home page" time="68.852000">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Verify if a user is able to view the page contents properly" name="Verify the image content on clicking categories in home page (outline example : | WOMEN | JOIN THE FREE |)" time="61.997000">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Verify if a user is able to view the page contents properly" name="Verify the image content on clicking categories in home page (outline example : | BOYS | UNLEASH YOUR BEAST |)" time="76.340000">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Verify if a user is able to view the page contents properly" name="Verify the image content on clicking categories in home page (outline example : | GIRLS | UNLEASH YOUR |)" time="69.905000">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Verify if a user is able to view the page contents properly" name="Guest user should be able to view the sub-navigation container" time="46.205000">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Verify if a user is able to view the page contents properly" name="As a guest user, a user should be able to navigate to product display page" time="92.032000">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[:chrome
+:chrome
+:chrome
+:chrome
+:chrome
+:chrome
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>
